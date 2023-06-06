@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    max-width: 144rem;
+    margin: 0 auto;
+}
+
+main {
+    margin: 4rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;  
+    border: 2.5rem solid #EFEFEF; 
+    border-radius: 5px;
+    width: 22.8rem;
+    height: 31.2rem;
+    box-sizing: content-box;
+
+
+}
+
+li {
+    margin: 2rem 1.6rem;
+    font-size: 1.6rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+li.active {
+    font-weight: bold;
+}
+
+
+#cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    max-height: 59.2rem;
+    max-width: 98.1rem;
+}
+
+
+
+.card {
+    width: 23rem;
+    height: 27.6rem;
+    border: 1px solid #E1E0E0;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card div {
+    margin: 1.6rem;
+}
+
+.card p, span {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+p.dateOfLaunch {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #979797;
+    margin-top: 4px;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer {
+    width: 100%;
+    height: 5.4rem;
+    background-color: #7159C1;
+}
+
+
+
+
+
+
+
+
